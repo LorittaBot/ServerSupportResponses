@@ -6,7 +6,7 @@ class ProfileBackgroundResponse : RegExResponse() {
         patterns.add("perfil|profile".toPattern(Pattern.CASE_INSENSITIVE))
         patterns.add("\\?".toPattern(Pattern.CASE_INSENSITIVE))
 
-        response = "{@mention}, se você quer mudar a imagem de fundo do seu perfil, digite \"+background\"! Caso você queira mudar o tema do seu perfil, entre em https://loritta.website/us/user/@me/dashboard/profiles"
+        response = "{@mention}, se você quer mudar a imagem de fundo do seu perfil, digite \"+background\"! Caso você queira mudar o tema do seu perfil, entre em https://loritta.website/br/user/@me/dashboard/profiles"
     }
 }
 
